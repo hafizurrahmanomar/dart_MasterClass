@@ -1,9 +1,12 @@
 void main() {
-  // list
-  List<String> friends = ["Hasan", "Rahat", "Sammun"];
-  print(friends);
-  print(friends[0]);
 
-  List<int> ageOfFriends = [21, 22, 23];
-  print(ageOfFriends);
-}
+  
+  //String  list
+  List<String> name = ["Hafizur", "Rahman", "Omar"];
+  print(name);
+  print(name[1]);
+  //
+  List<int> age = [25,30,50];
+  print(age);
+  }
+
