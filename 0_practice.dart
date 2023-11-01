@@ -1,13 +1,3 @@
-
-  void main()  {  
-    print("Example - Remove Element in the given Set");  
-    var names = <String>{"Peter","John","Ricky","Devansh","Finch"};  
+void main() {
   
-    names.forEach((x) {  
-        print('Each Value:  $x');  
-     });  
 }
-  
-
-
-

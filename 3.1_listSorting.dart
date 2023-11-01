@@ -1,5 +1,5 @@
 void main() {
-  List<String> nameList = ["Hafizur", "Rahman", "Omar","Toha","Nayeem"];
+  List<String> nameList = ["Hafizur", "Rahman", "Omar", "Toha", "Nayeem"];
   print(nameList);
 
   var firstItem = nameList.first;
@@ -26,12 +26,18 @@ void main() {
   print(nameList);
 
   // remove
-   nameList.remove("Real");
-   print(nameList);
+  nameList.remove("Real");
+  print(nameList);
   nameList.removeAt(2);
   print(nameList);
   nameList.removeLast();
   print(nameList);
-  nameList.replaceRange(2, 7,["Pabna"]); 
+  nameList.replaceRange(2, 7, ["Pabna"]);
   print(nameList);
+  
+  //single check
+  var a = [1];
+  print(a);
+  print(a.single);
+
 }
