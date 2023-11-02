@@ -25,9 +25,10 @@ void main() {
   nameList[1] = "Real";
   print(nameList);
 
-  // remove
+  // remove item
   nameList.remove("Real");
   print(nameList);
+  // remove index
   nameList.removeAt(2);
   print(nameList);
   nameList.removeLast();
