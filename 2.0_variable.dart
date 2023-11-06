@@ -22,25 +22,4 @@ void main() {
   print(myBool);
 }
 
-  // //operators
-  // int a = 82;
-  // int b = 10;
-
-  // int c = a + b;
-  // print(c);
-
-  // int d = a - b;
-  // print(d);
-
-  // int e = a * b;
-  // print(e);
- 
-  // int f = (a / b);
-  // print(f);
-  // // type casting
-  // int g = (a / b).toInt();
-  // print(g);
-
-  // String ageee = (24 - 1.08).toString();
-  // print(ageee);
-
+  
