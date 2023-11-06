@@ -1,6 +1,6 @@
 void main() {
   // Growable length list 
-  var nameList = ['Hafiz', 'Toha', 'Tohura'];
+  List<String> nameList = ['Hafiz', 'Toha', 'Tohura'];
   print(nameList);
   nameList.add("Nayeem");
   print(nameList);
