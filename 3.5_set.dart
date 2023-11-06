@@ -1,3 +1,5 @@
+// ignore_for_file: equal_elements_in_set
+
 void main() {
   List<String> familyMember = [
     'Hafiz',
@@ -7,15 +9,15 @@ void main() {
     'Omar',
     'Toha'
   ];
-  print(familyMember );
+  print(familyMember);
 
+  // ignore: duplicate_ignore
   Set<String> unqFamilyName = {
     'Hafiz',
     'Toha',
     'Nayeem',
     'Hafiz',
     'Omar',
-    'Toha'
   };
   print(unqFamilyName);
 
