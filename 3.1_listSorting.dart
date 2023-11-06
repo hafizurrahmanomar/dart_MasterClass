@@ -2,13 +2,13 @@ void main() {
   List<String> nameList = ["Hafizur", "Rahman", "Omar", "Toha", "Nayeem"];
   print(nameList);
 
-  var firstItem = nameList.first;
+  String firstItem = nameList.first;
   print(firstItem);
-  var lastItem = nameList.last;
+  String lastItem = nameList.last;
   print(lastItem);
   int size = nameList.length;
   print(size);
-  var reverse = nameList.reversed;
+  String reverse = nameList.reversed as String;
   print(reverse);
 
   // add
@@ -37,7 +37,7 @@ void main() {
   print(nameList);
   
   //single check
-  var a = [1];
+  List<int> a = [1];
   print(a);
   print(a.single);
 
