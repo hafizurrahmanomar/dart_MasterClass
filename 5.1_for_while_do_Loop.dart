@@ -24,7 +24,7 @@ void main() {
     y++;
   } while (y <= 10);
 
-  // another way to printing list item
+  // For loop item print by index
 
   List<String> city = ["Paban", "Bogura", "Rangpur", "Gazipur"];
   for (int i = 0; i < city.length; i++) {
