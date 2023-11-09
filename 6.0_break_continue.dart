@@ -8,4 +8,16 @@ void main() {
     }
     print(i);
   }
+  String name = "Hafiz";
+  for (int i = 0; i <50; i += 1) {
+    // code
+    if (i >= 20 && i <= 25) {
+      continue;
+    }
+    print('welcome $name => $i');
+
+    if (i == 50) {
+      break;
+    }
+  }
 }
