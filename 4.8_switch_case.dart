@@ -1,5 +1,5 @@
 void main() {
-  var dayOfWeek = 5;
+  int dayOfWeek = 5;
   switch (dayOfWeek) {
     case 1:
         print("Day is Sunday.");
