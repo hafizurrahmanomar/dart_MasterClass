@@ -1,5 +1,13 @@
 {
     "cSpell.words": [
         "Bangla"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
     ]
 }
