@@ -1,5 +1,17 @@
 {
     "cSpell.words": [
-        "Bangla"
+        "Bangla",
+        "Hafizur",
+        "Hasan",
+        "Pabna",
+        "Rahman"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
     ]
 }
