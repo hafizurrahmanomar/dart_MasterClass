@@ -1,2 +1,6 @@
+rint("\nStandard way\n");
 
-void userInfo({
+  // // standard way
+  // for (String value in cityName) {
+  //   print(value);
+  // }
