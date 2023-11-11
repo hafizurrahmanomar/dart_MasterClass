@@ -1,14 +1,8 @@
-// state & behaviour
-// state is an attributes of objects which has a current characterstics
-// behaviour is represents functions/methods
 
-// class - blueprint
-// object - real world
-
-class Man {
+class Info {
   // attributes / variables
   // (String? name;) -> null safety (variable can be store null)
-  String name = 'Hasan';
+  String name = '';
   int age = 10;
   double height = 0.0;
   String address = '';
@@ -20,26 +14,21 @@ class Man {
   //   height = h;
   //   address = add;
   // }
-  Man();
+ 
 }
 
 void main() {
-  // object creation -> (hasan, rahat)
-  Man hasan = Man();
-  print(hasan.name);
-  print(hasan.age = 21);
-  print(hasan.height = 5.4);
-  print(hasan.address = 'Sylhet');
+  // object creation -> (hafiz, almas)
+  Info hafiz = Info();
+  print(hafiz.name='Hafizur Rahman Omar');
+  print(hafiz.age = 35);
+  print(hafiz.height = 5.4);
+  print(hafiz.address = 'Pabna');
 
-  Man rahat = Man();
-  rahat.name = 'Rahat';
-  print(rahat.name);
-  int totalAge = rahat.age * 12;
+  Info almas = Info();
+  print(almas.name ='Allmas Molla');
+  int totalAge = almas.age * 2;
   print(totalAge);
 }
 
 
-/// Overview
-/// step 1 - creating class / blueprint
-/// step 2 - initializing attributes / variable
-/// step 3 - crating object
