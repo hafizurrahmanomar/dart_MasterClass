@@ -1,10 +1,10 @@
-class Man {
+class Student {
   String name = '';
   int age = 0;
   double height = 0.0;
   String address = '';
 
-  // Man(String name, int age, double height, String address) {
+  // Student(String name, int age, double height, String address) {
   //   this.name = name;
   //   this.age = age;
   //   this.height = height;
@@ -12,13 +12,13 @@ class Man {
   // }
 
   // more readability
-  Man(this.name, this.age, this.height, this.address);
+  Student(this.name, this.age, this.height, this.address);
 }
 
 void main() {
-  Man whoMan = new Man('Hasan Ahmad', 21, 5.4, 'Sylhet');
-  print(whoMan.name);
-  print(whoMan.age);
-  print(whoMan.height);
-  print(whoMan.address);
+  Student oneStudent = new Student('Toha', 10, 3.5, 'Pabna');
+  print(oneStudent.name);
+  print(oneStudent.age);
+  print(oneStudent.height);
+  print(oneStudent.address);
 }

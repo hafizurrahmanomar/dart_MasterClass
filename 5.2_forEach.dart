@@ -1,14 +1,14 @@
 void main() {
-  List<String> versityName = ["SUST", "BUET", "RUET", "CUET"];
+  List<String> cityName = ["Pabna", "Bogura", "Gazipur", "Jamalpur"];
 
-  versityName.forEach((element) {
+  cityName.forEach((element) {
     print(element);
   });
-
-  print("\nStandard way\n");
+print("\nFor in loop\n");
 
   // standard way
-  for (var value in versityName) {
+  for (String value in cityName) {
     print(value);
   }
+  
 }
