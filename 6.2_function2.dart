@@ -4,7 +4,7 @@
 void main() {
   userInfo(name: "Hafizur Rahman", age: 35, dist: 'Pabna');
 
-  info("Hafizur Rahman", 35, "Environmental Officer",'01734731069');
+  info("Hafizur Rahman", 35, "Environmental Officer", '01734731069');
 }
 
 //Function
@@ -14,7 +14,7 @@ void userInfo(
 }
 
 /*--> This is optional parameter */
-void info(String name, int age, String job,[String phone = 'Unknown'] ) {
+void info(String name, int age, String job, [String phone = 'Unknown']) {
   print(name);
   print('Age : $age');
   print("Job Status : $job");
