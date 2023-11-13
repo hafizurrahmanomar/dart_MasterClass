@@ -1,4 +1,3 @@
-
 void main() {
   
   int total = 0;
@@ -11,4 +10,3 @@ void main() {
   print("Total is $total");    
 
 }
-
