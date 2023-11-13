@@ -1,8 +1,8 @@
 void main() {
   List<String> cityName = ["Pabna", "Bogura", "Gazipur", "Jamalpur"];
 
-  cityName.forEach((element) {
-    print(element);
+  cityName.forEach((hafiz) {
+    print(hafiz);
   });
 print("\nFor in loop\n");
 
