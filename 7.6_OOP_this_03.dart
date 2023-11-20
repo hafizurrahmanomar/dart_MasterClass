@@ -3,8 +3,9 @@
 class Student {
   String name = '';
   int age = 0;
+  String myClass = "";
 
-  // Student(String n, int a) {
+  // Student(String n, int a ) {
   //   name = n;
   //   age = a;
   // }
@@ -14,19 +15,21 @@ class Student {
   //   age = age;
   // }
 
-  Student(String name, int age) {
+  Student(String name, int age, String myClass) {
     this.name = name;
     this.age = age;
+    this.myClass = myClass;
   }
 
   // method
-  void displayInformation() {
+  void StudentInfo() {
     print(name);
     print(age);
+    print(myClass);
   }
 }
 
 void main() {
-  Student ob = new Student("Hasan", 21);
-  ob.displayInformation();
+  Student studentObj = new Student("Hafiz", 17,"Ten");
+  studentObj.StudentInfo();
 }

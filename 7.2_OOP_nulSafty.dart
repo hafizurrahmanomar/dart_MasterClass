@@ -1,15 +1,14 @@
-
 class Student {
-  String name = 'Hafiz';
-  int age = 10;
-  double height = 0.0;
-  String address = '';
+  String? name ;
+  int? age ;
+  double? height ;
+  String? address ;
 
 }
 
 
 void main() {
-  // object creation -> (hafiz, almas)
+  // object creation -> (hafiz)
   Student hafiz = Student();
   print(hafiz.name='Hafizur Rahman Omar');
   print(hafiz.age = 35);
@@ -17,5 +16,3 @@ void main() {
   print(hafiz.address = 'Pabna');
 
 }
-
-
