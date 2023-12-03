@@ -1,9 +1,4 @@
-// This is the simple OOP project named 'Employee details' where it's work for the employee's personal information
 
-// If you complete the previous topics of OOP then you can easily understood this project - Thank you
-
-
-// parent class
 abstract class EmployeeDetails {
   String name = '';
   int age = 0;
@@ -14,7 +9,7 @@ abstract class EmployeeDetails {
   aboutPlace();
 
   void display() {
-    print('--------------------------------------------------------------------------------------------------------------------');
+    print('');
     print('| Name : $name');
     print('| Age : $age');
     print('| Nationality : $nationality');
@@ -49,7 +44,7 @@ class Person1 extends EmployeeDetails {
     print('|');
     print('| About platform :');
     aboutPlace();
-    print('--------------------------------------------------------------------------------------------------------------------\n');
+    print('\n');
   }
 }
 
@@ -73,7 +68,7 @@ class Person2 extends EmployeeDetails {
     print('|');
     print('| About platform :');
     aboutPlace();
-    print('--------------------------------------------------------------------------------------------------------------------\n');
+    print('\n');
   }
 }
 
@@ -98,7 +93,7 @@ class Person3 extends EmployeeDetails {
     print('|');
     print('| About platform :');
     aboutPlace();
-    print('--------------------------------------------------------------------------------------------------------------------\n');
+    print('\n');
   }
 }
 

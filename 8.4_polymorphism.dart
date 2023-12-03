@@ -9,24 +9,24 @@ abstract class Letter {
   }
 }
 
-class HasanLetter extends Letter {
+class HafizLetter extends Letter {
   // inherit the display(); method from super class
   @override
   void write() {
-    print('I wanna goto canada');
+    print('I  go to Dhaka');
   }
 
   void printInfo() {
     super.display();
-    print('Hasan subclass');
+    print('Hafiz subclass');
   }
 }
 
-class RahatLetter extends Letter {
+class TohaLetter extends Letter {
   // inherit the display(); method from super class
   @override
   void write() {
-    print('I wanna goto germany');
+    print('Toha  go to Pabna');
   }
 
   void printInfo() {
@@ -34,11 +34,11 @@ class RahatLetter extends Letter {
   }
 }
 
-class SammunLetter extends Letter {
+class AlmasLetter extends Letter {
   // inherit the display(); method from super class
   @override
   void write() {
-    print('I wanna goto USA');
+    print('Almas  go to USA');
   }
 
   void printInfo() {
@@ -47,16 +47,16 @@ class SammunLetter extends Letter {
 }
 
 void main() {
-  Letter ob1 = new HasanLetter();
-  ob1.write();
-  ob1.display();
+  Letter Hafiz_ob1 = new HafizLetter();
+  Hafiz_ob1.write();
+  Hafiz_ob1.display();
 
-  ob1 = new RahatLetter();
-  ob1.write();
-  ob1.display();
+  Hafiz_ob1 = new TohaLetter(); 
+  Hafiz_ob1.write();
+  Hafiz_ob1.display();
   // ob2.printInfo(); // can't call because polymorphism
 
-  ob1 = new SammunLetter();
-  ob1.write();
+  Hafiz_ob1 = new AlmasLetter();
+ Hafiz_ob1.write();
   // ob1.printInfo();  // can't call because polymorphism
 }
